@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Григорий Кушнаренко](https://up.htmlacademy.ru/adaptive/16/user/766285).
-* Наставник: [Руслан Бреев] (https://up.htmlacademy.ru/htmlcss/24/user/488939).
+* Наставник: [Руслан Бреев] (https://up.htmlacademy.ru/adaptive/16/user/488939).
 
 ---
 
