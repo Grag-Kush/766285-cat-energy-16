@@ -1,6 +1,20 @@
+.nav-link {
+  color: @font-black;
+
+  font-family: 'Myriad Pro', sans-serif;
+  font-size  : 20px;
+  font-weight: 400;
+  line-height: 20px;
+
+  text-transform : uppercase;
+  text-decoration: none;
+}
+
 .main-nav {
   margin : 0;
-  padding: 0;
+  padding: 10px 0 0 0;
+
+  border-top: 1px solid @background-lightgray;
 
   .main-nav__list {
     margin : 0;
@@ -10,15 +24,16 @@
   .site-list__item,
   .site-list__item--active {
     list-style: none;
+    text-align: center;
 
-    a {
-      font-family   : 'Myriad Pro', sans-serif;
-      font-size     : 20px;
-      font-weight   : 400;
-      line-height   : 20px;
-      text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 
-      text-decoration: none;
-    }
-  }
+    border-bottom: 1px solid @background-lightgray;
+}
+
+.site-list__item:last-child {
+  border-bottom: none;
+}
+
 }
