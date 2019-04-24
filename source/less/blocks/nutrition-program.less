@@ -2,7 +2,7 @@
   background-image:
     url("../img/index-can-mobile@1x.png"),
     url("../img/index-background-mobile@1x.jpg");
-  background-position: center 170px, center 0;
+  background-position: center 190px, center 0;
   background-repeat: no-repeat;
 
   width: 100%;
@@ -17,7 +17,9 @@
     line-height: 36px;
     font-weight: 400;
 
-    margin: 0;
+    margin: auto;
+
+    width: 320px;
   }
 }
 
@@ -35,4 +37,47 @@
   line-height: 18px;
 
   padding: 12px 72px 12px 72px;
+}
+
+@media (min-width: @tablet-width) {
+  .nutrition-program {
+    background-image: url("../img/index-can-tablet@1x.jpg");
+    background-position: center 250px;
+
+    padding: 55px 0 0 0;
+
+    text-align: left;
+
+    h1 {
+      font-size: 60px;
+      line-height: 60px;
+
+      color: @font-black;
+
+      margin: 0 0 45px 10%;
+
+      width: 430px;
+    }
+  }
+
+  .nutrition-program__slogan {
+    font-size: 20px;
+    line-height: 14px;
+
+    color: @font-black;
+
+    margin: 0 0 50px 10%;
+  }
+
+  .nutrition-programm__button {
+    font-size: 14px;
+    line-height: 18px;
+
+    margin: 0 0 0 10%;
+    padding: 12px 72px 12px 72px;
+  }
+
+  .nutrition-program__wraper {
+    padding-bottom: 560px;
+  }
 }
