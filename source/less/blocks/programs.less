@@ -2,3 +2,19 @@
   margin: 10px 0 0 0;
   padding: 0 20px 0 20px;
 }
+
+@media (min-width: @tablet-width) {
+  .programs {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .programs {
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0 40px 0 40px;
+  }
+}

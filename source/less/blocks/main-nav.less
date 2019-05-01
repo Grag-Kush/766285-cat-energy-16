@@ -1,8 +1,6 @@
 .main-nav {
   margin: 0;
   padding: 10px 0 0 0;
-
-  border-top: 1px solid @background-lightgray;
 }
 
 .main-nav__list {
@@ -27,5 +25,11 @@
     justify-content: space-between;
 
     border-top: none;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .main-nav__list {
+    justify-content: flex-end;
   }
 }
