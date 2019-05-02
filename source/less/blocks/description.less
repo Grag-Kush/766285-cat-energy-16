@@ -1,6 +1,8 @@
 .description {
   margin: 20px;
 
+  background-color: aqua;
+
   h2 {
     color: @font-black;
 
@@ -17,4 +19,26 @@
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
+}
+
+@media (min-width: @tablet-width) {
+  .description__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .description__item {
+    width: 355px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .description {
+    margin: 0 40px 0 40px;
+  }
+
+  .description__item {
+    width: 245px;
+  }
 }
